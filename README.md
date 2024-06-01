@@ -1,6 +1,6 @@
 # EC2 Stop/Start Lambda Function
 
-This repository contains a Python-based AWS Lambda function that will enable you to easily start or stop EC2 instances using HTTPS GET or POST requests. This tool is particularly useful for managing development instances. You can bookmark the URLs in your browser for quick access to turn your instances on or off.
+This repository contains a Python-based AWS Lambda function that will enable you to start or stop EC2 instances using simple HTTP GET or POST requests. This tool is particularly useful for managing development instances. You can bookmark the URLs in your browser for quick access to turn your instances on or off.
 
 ## How It Works
 - **AWS Lambda Function with Function URL:** While you can use an AWS API Gateway endpoint to invoke the Lambda function, the simplest way is to use Lambda's built-in "Function URL" feature which provides you a simple endpoint URL you can send GET or POST requests to invoke the function's code.
